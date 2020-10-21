@@ -5592,8 +5592,8 @@
 
           if (typeof config === 'string') {
             //changed
-            if config === 'destroy' {
-              config === 'dispose';
+            if (config === 'destroy') {
+              config = 'dispose';
             }
             if (typeof data[config] === 'undefined') {
               throw new TypeError("No method named \"" + config + "\"");
