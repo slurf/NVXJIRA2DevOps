@@ -1,3 +1,6 @@
+/*--- 
+https://gist.github.com/raw/2625891/waitForKeyElements.js
+*/
 /*--- waitForKeyElements():  A utility function, for Greasemonkey scripts,
     that detects and handles AJAXed content.
 
